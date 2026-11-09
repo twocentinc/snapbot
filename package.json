@@ -1,0 +1,36 @@
+{
+  "name": "snapbot",
+  "version": "0.1.0",
+  "description": "Deterministic Expo iOS screenshots driven by deep links",
+  "type": "module",
+  "bin": {
+    "snapbot": "./src/main.ts"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "capture": "tsx ./src/main.ts capture",
+    "test": "tsx --test ./test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/pngjs": "^6.0.5",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "pngjs": "^7.0.0",
+    "tsx": "^4.21.0",
+    "zod": "^4.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twocentinc/snapbot.git"
+  },
+  "packageManager": "pnpm@9.15.9"
+}
