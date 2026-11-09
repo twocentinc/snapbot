@@ -1,6 +1,6 @@
 # Snapbot
 
-This private repository contains the Snapbot CLI and the reusable
+This repository contains the Snapbot CLI and the reusable
 [`react-native-snapbot`](packages/react-native-snapbot) support package.
 
 For development, use Node.js 22 or newer and run `pnpm install`, `pnpm test`,
